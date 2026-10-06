@@ -1,0 +1,14 @@
+services:
+  jenkins:
+    build: .
+    image: parcelhub-jenkins
+    container_name: parcelhub-jenkins
+    ports:
+      - "8080:8080"
+    volumes:
+      # Jobs, plugins and settings live here and survive restarts / rebuilds.
+      - jenkins_home:/var/jenkins_home
+    restart: unless-stopped
+
+volumes:
+  jenkins_home:

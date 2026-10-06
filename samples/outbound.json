@@ -1,0 +1,17 @@
+{
+  "transactionKey": "DEMO-OUT-001",
+  "serviceCode": "PH-STD",
+  "sender": {
+    "name": "Kettle & Co",
+    "email": "dispatch@kettle.example",
+    "address": { "line1": "1 Mill Lane", "city": "Leeds", "postCode": "LS1 4AB", "countryCode": "GB" }
+  },
+  "consignee": {
+    "name": "Ada Lovelace",
+    "email": "ada@example.com",
+    "phone": "07911 123456",
+    "address": { "line1": "12 Analytical Row", "line2": "Islington", "city": "London", "postCode": "N1 9GU", "countryCode": "GB" }
+  },
+  "parcel": { "barcode": "PARCEL-001", "weightKg": 2.5 },
+  "labelFormat": "SVG"
+}

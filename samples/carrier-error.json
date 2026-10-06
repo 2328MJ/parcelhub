@@ -1,0 +1,15 @@
+{
+  "transactionKey": "DEMO-CARRIER-001",
+  "serviceCode": "PH-STD",
+  "sender": {
+    "name": "Kettle & Co",
+    "address": { "line1": "1 Mill Lane", "city": "Leeds", "postCode": "LS1 4AB", "countryCode": "GB" }
+  },
+  "consignee": {
+    "name": "Nobody Home",
+    "email": "nobody@example.com",
+    "address": { "line1": "1 Nowhere Street", "city": "Atlantis", "postCode": "ZZ99 9ZZ", "countryCode": "GB" }
+  },
+  "parcel": { "weightKg": 3 },
+  "labelFormat": "SVG"
+}

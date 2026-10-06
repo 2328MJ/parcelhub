@@ -1,0 +1,15 @@
+{
+  "transactionKey": "DEMO-RTN-NI-001",
+  "serviceCode": "PH-RTN-NI",
+  "sender": {
+    "name": "Siobhan Kelly",
+    "phone": "028 9012 3456",
+    "address": { "line1": "9 Lagan Walk", "city": "Belfast", "postCode": "BT1 5GS", "countryCode": "GB" }
+  },
+  "parcel": {
+    "barcode": "RTN-NI-001",
+    "weightKg": 0.8,
+    "items": [ { "description": "Cotton shirt", "quantity": 1, "value": 25.00, "hsCode": "6205" } ]
+  },
+  "labelFormat": "ZPL"
+}

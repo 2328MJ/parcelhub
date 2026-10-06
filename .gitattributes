@@ -1,0 +1,8 @@
+# Normalise line endings in the repo
+* text=auto
+
+# Files that run on Linux (Jenkins container, servers) must keep LF endings
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.groovy text eol=lf
+Jenkinsfile text eol=lf

@@ -1,0 +1,11 @@
+{
+  "transactionKey": "DEMO-RTN-001",
+  "serviceCode": "PH-RTN",
+  "sender": {
+    "name": "Joe Bloggs",
+    "phone": "07700 900123",
+    "address": { "line1": "4 Elm Street", "city": "Bristol", "postCode": "BS1 5TR", "countryCode": "GB" }
+  },
+  "parcel": { "barcode": "RTN-001", "weightKg": 1.2 },
+  "labelFormat": "SVG"
+}
